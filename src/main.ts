@@ -39,7 +39,7 @@ console.log(`Vi har ${dogs.length} stycken hundar.`);
 console.log(`Hundarna har ${numberOfColors(dogs)} antal unika färger.`);
 console.log(`Den vanligaste färgen bland alla hundar är: ${commonColor(dogs)}.`);
 
-const monsters: Monster[] = [
+let monsters: Monster[] = [
 	{ name: "Florg", age: 1266, tentacles: 29, eyes: 666, hasWings: true },
 	{ name: "Smirch", age: 78, tentacles: 68, eyes: 2, hasWings: false },
 	

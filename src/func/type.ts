@@ -1,19 +1,18 @@
-
 export type User = {
-	name: string;
-	hobby: string[];
-	age: number;
+  name: string;
+  hobby: string[];
+  age: number;
 };
 
 export type Dog = {
-	name: string;
-	color: string;
+  name: string;
+  color: string;
 };
 
 export type Monster = {
-    name: string;
-    age: number;
-    tentacles: number;
-    eyes: number;
-    hasWings: boolean;
+  name: string;
+  age: number;
+  tentacles: number;
+  eyes: number;
+  hasWings: boolean;
 };
